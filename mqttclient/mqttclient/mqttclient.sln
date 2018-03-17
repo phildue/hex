@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mqttclient", "mqttclient\mqttclient.csproj", "{FE5AF984-29D7-45D5-B7FA-BD6A4524D78A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2Mqtt.Mono", "..\..\paho.mqtt.m2mqtt\M2Mqtt\M2Mqtt.Mono.csproj", "{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}.Debug|x86.Build.0 = Debug|Any CPU
+		{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}.Release|x86.ActiveCfg = Release|Any CPU
+		{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}.Release|x86.Build.0 = Release|Any CPU
+		{FE5AF984-29D7-45D5-B7FA-BD6A4524D78A}.Debug|x86.ActiveCfg = Debug|x86
+		{FE5AF984-29D7-45D5-B7FA-BD6A4524D78A}.Debug|x86.Build.0 = Debug|x86
+		{FE5AF984-29D7-45D5-B7FA-BD6A4524D78A}.Release|x86.ActiveCfg = Release|x86
+		{FE5AF984-29D7-45D5-B7FA-BD6A4524D78A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
