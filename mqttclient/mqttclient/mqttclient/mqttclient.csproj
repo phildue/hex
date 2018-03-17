@@ -37,10 +37,4 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\paho.mqtt.m2mqtt\M2Mqtt\M2Mqtt.Mono.csproj">
-      <Project>{9B706DEC-4CE7-4764-BDBE-8A5F855E5857}</Project>
-      <Name>M2Mqtt.Mono</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
