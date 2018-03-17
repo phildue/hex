@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public class MqttHandler : MonoBehaviour {
-	GameObject player;
+	public GameObject player;
 	public void Start () {
 		Debug.WriteLine("Starting MqttClient"); 
 		try{
